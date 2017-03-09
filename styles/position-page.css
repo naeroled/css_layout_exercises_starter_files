@@ -1,1 +1,42 @@
+/*body{
+	font-size: 0;
+}*/
 
+nav{
+	padding-right: 60px;
+	padding-left: 60px;
+	background-color: grey;
+	
+}
+
+nav img{
+
+}
+
+.container{
+	border: 10px green dotted;
+	height: 300px;
+	width: 600px;
+}
+
+
+.cat{
+	height: 200px;
+	width: 200px;
+	border: blue;
+}
+
+.dog{
+	height: 200px;
+	width: 200px;
+	border: blue;
+	/*position: relative;
+	margin-left: 300px;*/
+
+}
+
+body{
+	background: url(images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+
+}
