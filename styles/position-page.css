@@ -1,42 +1,69 @@
-/*body{
-	font-size: 0;
-}*/
+body{
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+}
 
 nav{
-	padding-right: 60px;
-	padding-left: 60px;
 	background-color: grey;
-	
+	height:60px;
+	position:fixed;
+	width:100%;
 }
 
 nav img{
+	width: 50px;
+	margin-left: 30px;
+	margin-top: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+ul, li{
+	display: inline-block;
 
 }
+
+li::after{
+	content:" |";
+
+}
+
+li a:hover{
+	color: black;
+}
+
+main{
+	padding-top: 80px;
+	}
 
 .container{
 	border: 10px green dotted;
 	height: 300px;
 	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	margin-top: 120px;
+
 }
 
+.cat, .dog{
+	position:relative;
+}
 
 .cat{
 	height: 200px;
 	width: 200px;
-	border: blue;
+	top:-100px;
+	left:-80px;
 }
 
 .dog{
 	height: 200px;
 	width: 200px;
 	border: blue;
-	/*position: relative;
-	margin-left: 300px;*/
-
-}
-
-body{
-	background: url(images/outerspace_landscape.jpeg) no-repeat;
-	background-size: cover;
+	right: -250px;
+	bottom: -200px;
 
 }
